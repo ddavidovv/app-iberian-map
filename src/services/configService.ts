@@ -6,7 +6,7 @@ import type { ProductMapConfig } from '../types/map';
  */
 export async function loadMapConfig(): Promise<ProductMapConfig[]> {
   try {
-    const response = await fetch('/src/data/map-config.json');
+    const response = await fetch('/data/map-config.json');
     if (!response.ok) {
       throw new Error('Failed to load map configuration');
     }
