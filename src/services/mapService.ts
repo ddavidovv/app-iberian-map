@@ -1,7 +1,7 @@
 import type { MapData, MapZoneData } from '../types/map';
 
 async function fetchSvgContent(): Promise<string> {
-  const response = await fetch('/src/assets/iberian_map.svg');
+  const response = await fetch('/assets/iberian_map.svg');
   if (!response.ok) throw new Error('Failed to load SVG map');
   return response.text();
 }
