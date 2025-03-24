@@ -43,10 +43,11 @@ variables:
       value: 'E2WJ6ZCP81VB5W'
     ${{ else }}:
       value: 'E2WJ6ZCP81VB5W'
-  - ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
-    - group: app-iberian-map.env.production
-  - ${{ else }}: 
-    - group:  app-iberian-map.env.staging
+### APP-IBERIAN-MAP no necesita variables
+#  - ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
+#    - group: app-iberian-map.env.production
+#  - ${{ else }}: 
+#    - group:  app-iberian-map.env.staging
   
 
 steps:
