@@ -22,22 +22,16 @@ pool:
   vmImage: ubuntu-latest
   # https://docs.microsoft.com/es-es/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml
   #
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: ctt-devops/ctt-devops # <project>/<repo>
+      ref: main  # explicit branch reference
+
 variables:
-  - name: aws_credentials
-    ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
-      value: azure-devops-corporate-apps-webs-production
-    ${{ else }}:
-      value: azure-devops-corporate-apps-webs-stating
-  - name: bucketName
-    ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
-      value: $(Build.Repository.Name)-prod
-    ${{ else }}:
-      value: $(Build.Repository.Name)-staging
-  - name: aws_region
-    ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
-      value: eu-central-1
-    ${{ else }}:
-      value: eu-west-1
+  - template: MANIFEST/static-web/static-nodeYarn-s3-vars-template.yml@templates
   - name: distribution_id
     ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
       value: 'E1FYLUZG85RGTN'
@@ -47,39 +41,6 @@ variables:
     - group: app-iberian-map.env.production
   - ${{ else }}: 
     - group:  app-iberian-map.env.staging
-  
 
 steps:
-  - task: NodeTool@0
-    inputs:
-      versionSpec: '23.x'
-    displayName: 'Install Node.js'
-
-  - script: |
-      env > .env
-      cat .env
-    displayName: 'Add the .env'
-
-  - task: CmdLine@2
-    inputs:
-      script: |
-          yarn install
-          yarn init-incident-solver
-          yarn build
-      workingDirectory: '$(Build.SourcesDirectory)'
-
-  - task: S3Upload@1
-    inputs:
-      awsCredentials: $(aws_credentials)
-      regionName: $(aws_region)
-      bucketName: $(bucketName)
-      sourceFolder: '$(Build.SourcesDirectory)/dist'
-      globExpressions: '**'
-
-  - task: AWSCLI@1
-    inputs:
-      awsCredentials: $(aws_credentials)
-      regionName: $(aws_region)
-      awsCommand: 'cloudfront'
-      awsSubCommand: 'create-invalidation'
-      awsArguments: '--distribution-id $(distribution_id) --paths "/*"'
+  - template: MANIFEST/static-web/static-nodeYarn-s3-template.yml@templates
