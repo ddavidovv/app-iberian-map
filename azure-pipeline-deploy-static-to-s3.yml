@@ -32,11 +32,6 @@ resources:
 
 variables:
   - template: MANIFEST/static-web/static-nodeYarn-s3-vars-template.yml@templates
-  - name: distribution_id
-    ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
-      value: 'E1FYLUZG85RGTN'
-    ${{ else }}:
-      value: 'E2WJ6ZCP81VB5W'
   - ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
     - group: app-iberian-map.env.production
   - ${{ else }}: 
