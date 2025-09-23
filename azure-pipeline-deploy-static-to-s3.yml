@@ -31,11 +31,11 @@ resources:
       ref: main  # explicit branch reference
 
 variables:
-  - template: MANIFEST/static-web/static-nodeYarn-s3-vars-template.yml@templates
+  - template: MANIFEST/static-web/npmS3/vars-template.yml@templates
   - ${{ if or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main')) }}:
     - group: app-iberian-map.env.production
   - ${{ else }}: 
     - group:  app-iberian-map.env.staging
 
 steps:
-  - template: MANIFEST/static-web/static-nodeYarn-s3-template.yml@templates
+  - template: MANIFEST/static-web/npmS3/template.yml@templates
