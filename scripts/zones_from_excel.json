@@ -1,0 +1,2972 @@
+[
+  {
+    "country_code": "AD",
+    "zone_code": "AD",
+    "zone_name": "ANDORRA",
+    "country_code2": "AD",
+    "zone_expreg": "^AD",
+    "zone_ccaa": "AD",
+    "zone_group": "ANDORRA"
+  },
+  {
+    "country_code": "AE",
+    "zone_code": "AE",
+    "zone_name": "EMIRATOS ARABES UNIDOS",
+    "country_code2": "AE",
+    "zone_expreg": "^AE",
+    "zone_ccaa": "AE",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "AF",
+    "zone_code": "AF",
+    "zone_name": "AFGANISTAN",
+    "country_code2": "AF",
+    "zone_expreg": "^AF",
+    "zone_ccaa": "AF",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "AI",
+    "zone_code": "AI",
+    "zone_name": "ANGUILA",
+    "country_code2": "AI",
+    "zone_expreg": "^AI",
+    "zone_ccaa": "AI",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "AG",
+    "zone_code": "AG",
+    "zone_name": "ANTIGUA Y BARBUDA",
+    "country_code2": "AG",
+    "zone_expreg": "^AG",
+    "zone_ccaa": "AG",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "AL",
+    "zone_code": "AL",
+    "zone_name": "ALBANIA",
+    "country_code2": "AL",
+    "zone_expreg": "^AL",
+    "zone_ccaa": "AL",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "AM",
+    "zone_code": "AM",
+    "zone_name": "ARMENIA",
+    "country_code2": "AM",
+    "zone_expreg": "^AM",
+    "zone_ccaa": "AM",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "AN",
+    "zone_code": "AN",
+    "zone_name": "ANTILLAS NEERLANDESAS",
+    "country_code2": "AN",
+    "zone_expreg": "^AN",
+    "zone_ccaa": "AN",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "AO",
+    "zone_code": "AO",
+    "zone_name": "ANGOLA",
+    "country_code2": "AO",
+    "zone_expreg": "^AO",
+    "zone_ccaa": "AO",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "AQ",
+    "zone_code": "AQ",
+    "zone_name": "ANTARTIDA",
+    "country_code2": "AQ",
+    "zone_expreg": "^AQ",
+    "zone_ccaa": "AQ",
+    "zone_group": "ANTÁRTIDA"
+  },
+  {
+    "country_code": "AR",
+    "zone_code": "AR",
+    "zone_name": "ARGENTINA",
+    "country_code2": "AR",
+    "zone_expreg": "^AR",
+    "zone_ccaa": "AR",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "AS",
+    "zone_code": "AS",
+    "zone_name": "SAMOA AMERICANA",
+    "country_code2": "AS",
+    "zone_expreg": "^AS",
+    "zone_ccaa": "AS",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "AT",
+    "zone_code": "AT",
+    "zone_name": "AUSTRIA",
+    "country_code2": "AT",
+    "zone_expreg": "^AT",
+    "zone_ccaa": "AT",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "AU",
+    "zone_code": "AU",
+    "zone_name": "AUSTRALIA",
+    "country_code2": "AU",
+    "zone_expreg": "^AU",
+    "zone_ccaa": "AU",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "AW",
+    "zone_code": "AW",
+    "zone_name": "ARUBA",
+    "country_code2": "AW",
+    "zone_expreg": "^AW",
+    "zone_ccaa": "AW",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "AX",
+    "zone_code": "AX",
+    "zone_name": "ISLAS ALAND",
+    "country_code2": "AX",
+    "zone_expreg": "^AX",
+    "zone_ccaa": "AX",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "AZ",
+    "zone_code": "AZ",
+    "zone_name": "AZERBAIYAN",
+    "country_code2": "AZ",
+    "zone_expreg": "^AZ",
+    "zone_ccaa": "AZ",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "BA",
+    "zone_code": "BA",
+    "zone_name": "BOSNIA Y HERZEGOVINA",
+    "country_code2": "BA",
+    "zone_expreg": "^BA",
+    "zone_ccaa": "BA",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "BS",
+    "zone_code": "BS",
+    "zone_name": "BAHAMAS",
+    "country_code2": "BS",
+    "zone_expreg": "^BS",
+    "zone_ccaa": "BS",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "BD",
+    "zone_code": "BD",
+    "zone_name": "BANGLADESH",
+    "country_code2": "BD",
+    "zone_expreg": "^BD",
+    "zone_ccaa": "BD",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "BE",
+    "zone_code": "BE",
+    "zone_name": "BELGICA",
+    "country_code2": "BE",
+    "zone_expreg": "^BE",
+    "zone_ccaa": "BE",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "BF",
+    "zone_code": "BF",
+    "zone_name": "BURKINA FASO",
+    "country_code2": "BF",
+    "zone_expreg": "^BF",
+    "zone_ccaa": "BF",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "BG",
+    "zone_code": "BG",
+    "zone_name": "BULGARIA",
+    "country_code2": "BG",
+    "zone_expreg": "^BG",
+    "zone_ccaa": "BG",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "BH",
+    "zone_code": "BH",
+    "zone_name": "BAHREIN",
+    "country_code2": "BH",
+    "zone_expreg": "^BH",
+    "zone_ccaa": "BH",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "BI",
+    "zone_code": "BI",
+    "zone_name": "BURUNDI",
+    "country_code2": "BI",
+    "zone_expreg": "^BI",
+    "zone_ccaa": "BI",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "BJ",
+    "zone_code": "BJ",
+    "zone_name": "BENIN",
+    "country_code2": "BJ",
+    "zone_expreg": "^BJ",
+    "zone_ccaa": "BJ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "BB",
+    "zone_code": "BB",
+    "zone_name": "BARBADOS",
+    "country_code2": "BB",
+    "zone_expreg": "^BB",
+    "zone_ccaa": "BB",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "BZ",
+    "zone_code": "BZ",
+    "zone_name": "BELICE",
+    "country_code2": "BZ",
+    "zone_expreg": "^BZ",
+    "zone_ccaa": "BZ",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "BN",
+    "zone_code": "BN",
+    "zone_name": "BRUNEI",
+    "country_code2": "BN",
+    "zone_expreg": "^BN",
+    "zone_ccaa": "BN",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "BO",
+    "zone_code": "BO",
+    "zone_name": "BOLIVIA",
+    "country_code2": "BO",
+    "zone_expreg": "^BO",
+    "zone_ccaa": "BO",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "BR",
+    "zone_code": "BR",
+    "zone_name": "BRASIL",
+    "country_code2": "BR",
+    "zone_expreg": "^BR",
+    "zone_ccaa": "BR",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "BM",
+    "zone_code": "BM",
+    "zone_name": "BERMUDAS",
+    "country_code2": "BM",
+    "zone_expreg": "^BM",
+    "zone_ccaa": "BM",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "BT",
+    "zone_code": "BT",
+    "zone_name": "BHUTAN",
+    "country_code2": "BT",
+    "zone_expreg": "^BT",
+    "zone_ccaa": "BT",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "BV",
+    "zone_code": "BV",
+    "zone_name": "ISLA BOUVET",
+    "country_code2": "BV",
+    "zone_expreg": "^BV",
+    "zone_ccaa": "BV",
+    "zone_group": "ANTÁRTIDA"
+  },
+  {
+    "country_code": "BW",
+    "zone_code": "BW",
+    "zone_name": "BOTSUANA",
+    "country_code2": "BW",
+    "zone_expreg": "^BW",
+    "zone_ccaa": "BW",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "BY",
+    "zone_code": "BY",
+    "zone_name": "BELARUS",
+    "country_code2": "BY",
+    "zone_expreg": "^BY",
+    "zone_ccaa": "BY",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "CA",
+    "zone_code": "CA",
+    "zone_name": "CANADA",
+    "country_code2": "CA",
+    "zone_expreg": "^CA",
+    "zone_ccaa": "CA",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "CR",
+    "zone_code": "CR",
+    "zone_name": "COSTA RICA",
+    "country_code2": "CR",
+    "zone_expreg": "^CR",
+    "zone_ccaa": "CR",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "CC",
+    "zone_code": "CC",
+    "zone_name": "ISLAS COCOS",
+    "country_code2": "CC",
+    "zone_expreg": "^CC",
+    "zone_ccaa": "CC",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "CF",
+    "zone_code": "CF",
+    "zone_name": "REPUBLICA CENTRO-AFRICANA",
+    "country_code2": "CF",
+    "zone_expreg": "^CF",
+    "zone_ccaa": "CF",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CG",
+    "zone_code": "CG",
+    "zone_name": "CONGO",
+    "country_code2": "CG",
+    "zone_expreg": "^CG",
+    "zone_ccaa": "CG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CH",
+    "zone_code": "CH",
+    "zone_name": "SUIZA",
+    "country_code2": "CH",
+    "zone_expreg": "^CH",
+    "zone_ccaa": "CH",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "CI",
+    "zone_code": "CI",
+    "zone_name": "COSTA DE MARFIL",
+    "country_code2": "CI",
+    "zone_expreg": "^CI",
+    "zone_ccaa": "CI",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CK",
+    "zone_code": "CK",
+    "zone_name": "ISLAS COOK",
+    "country_code2": "CK",
+    "zone_expreg": "^CK",
+    "zone_ccaa": "CK",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "CL",
+    "zone_code": "CL",
+    "zone_name": "CHILE",
+    "country_code2": "CL",
+    "zone_expreg": "^CL",
+    "zone_ccaa": "CL",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "CM",
+    "zone_code": "CM",
+    "zone_name": "CAMERUN",
+    "country_code2": "CM",
+    "zone_expreg": "^CM",
+    "zone_ccaa": "CM",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CN",
+    "zone_code": "CN",
+    "zone_name": "CHINA",
+    "country_code2": "CN",
+    "zone_expreg": "^CN",
+    "zone_ccaa": "CN",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "CO",
+    "zone_code": "CO",
+    "zone_name": "COLOMBIA",
+    "country_code2": "CO",
+    "zone_expreg": "^CO",
+    "zone_ccaa": "CO",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "CU",
+    "zone_code": "CU",
+    "zone_name": "CUBA",
+    "country_code2": "CU",
+    "zone_expreg": "^CU",
+    "zone_ccaa": "CU",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "DM",
+    "zone_code": "DM",
+    "zone_name": "DOMINICA",
+    "country_code2": "DM",
+    "zone_expreg": "^DM",
+    "zone_ccaa": "DM",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "CV",
+    "zone_code": "CV",
+    "zone_name": "CABO VERDE",
+    "country_code2": "CV",
+    "zone_expreg": "^CV",
+    "zone_ccaa": "CV",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CX",
+    "zone_code": "CX",
+    "zone_name": "ISLAS CHRISTMAS",
+    "country_code2": "CX",
+    "zone_expreg": "^CX",
+    "zone_ccaa": "CX",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "CY",
+    "zone_code": "CY",
+    "zone_name": "CHIPRE",
+    "country_code2": "CY",
+    "zone_expreg": "^CY",
+    "zone_ccaa": "CY",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "CZ",
+    "zone_code": "CZ",
+    "zone_name": "REPUBLICA CHECA",
+    "country_code2": "CZ",
+    "zone_expreg": "^CZ",
+    "zone_ccaa": "CZ",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "DE",
+    "zone_code": "DE",
+    "zone_name": "ALEMANIA",
+    "country_code2": "DE",
+    "zone_expreg": "^DE",
+    "zone_ccaa": "DE",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "DJ",
+    "zone_code": "DJ",
+    "zone_name": "YIBUTI",
+    "country_code2": "DJ",
+    "zone_expreg": "^DJ",
+    "zone_ccaa": "DJ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "DK",
+    "zone_code": "DK",
+    "zone_name": "DINAMARCA",
+    "country_code2": "DK",
+    "zone_expreg": "^DK",
+    "zone_ccaa": "DK",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "SV",
+    "zone_code": "SV",
+    "zone_name": "EL SALVADOR",
+    "country_code2": "SV",
+    "zone_expreg": "^SV",
+    "zone_ccaa": "SV",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "DZ",
+    "zone_code": "DZ",
+    "zone_name": "ARGEL",
+    "country_code2": "DZ",
+    "zone_expreg": "^DZ",
+    "zone_ccaa": "DZ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "EC",
+    "zone_code": "EC",
+    "zone_name": "ECUADOR",
+    "country_code2": "EC",
+    "zone_expreg": "^EC",
+    "zone_ccaa": "EC",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "EE",
+    "zone_code": "EE",
+    "zone_name": "ESTONIA",
+    "country_code2": "EE",
+    "zone_expreg": "^EE",
+    "zone_ccaa": "EE",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "EG",
+    "zone_code": "EG",
+    "zone_name": "EGIPTO",
+    "country_code2": "EG",
+    "zone_expreg": "^EG",
+    "zone_ccaa": "EG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "EH",
+    "zone_code": "EH",
+    "zone_name": "SAHARA OCCIDENTAL",
+    "country_code2": "EH",
+    "zone_expreg": "^EH",
+    "zone_ccaa": "EH",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "ER",
+    "zone_code": "ER",
+    "zone_name": "ERITREA",
+    "country_code2": "ER",
+    "zone_expreg": "^ER",
+    "zone_ccaa": "ER",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-VI",
+    "zone_name": "ALAVA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES01[0-9]{3}$",
+    "zone_ccaa": "PV",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-AB",
+    "zone_name": "ALBACETE",
+    "country_code2": "ES",
+    "zone_expreg": "^ES02[0-9]{3}$",
+    "zone_ccaa": "CM",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-A",
+    "zone_name": "ALICANTE",
+    "country_code2": "ES",
+    "zone_expreg": "^ES03[0-9]{3}$",
+    "zone_ccaa": "VC",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-AL",
+    "zone_name": "ALMERIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES04[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-O",
+    "zone_name": "ASTURIAS",
+    "country_code2": "ES",
+    "zone_expreg": "^ES33[0-9]{3}$",
+    "zone_ccaa": "AS",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-AV",
+    "zone_name": "AVILA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES05[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-BA",
+    "zone_name": "BADAJOZ",
+    "country_code2": "ES",
+    "zone_expreg": "^ES06[0-9]{3}$",
+    "zone_ccaa": "EX",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-PM-FO",
+    "zone_name": "BALEARES - FORMENTERA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES078[6-8][0-9]$",
+    "zone_ccaa": "IB",
+    "zone_group": "BALEARES"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-PM-IB",
+    "zone_name": "BALEARES - IBIZA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES078[0-5][0-9]$",
+    "zone_ccaa": "IB",
+    "zone_group": "BALEARES"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-PM-MA",
+    "zone_name": "BALEARES - MALLORCA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES07[0-6][0-9]{2}$",
+    "zone_ccaa": "IB",
+    "zone_group": "BALEARES"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-PM-ME",
+    "zone_name": "BALEARES - MENORCA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES077[0-9]{2}$",
+    "zone_ccaa": "IB",
+    "zone_group": "BALEARES"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-B",
+    "zone_name": "BARCELONA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES08[0-9]{3}$",
+    "zone_ccaa": "CT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-BU",
+    "zone_name": "BURGOS",
+    "country_code2": "ES",
+    "zone_expreg": "^ES09[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CC",
+    "zone_name": "CACERES",
+    "country_code2": "ES",
+    "zone_expreg": "^ES10[0-9]{3}$",
+    "zone_ccaa": "EX",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CA",
+    "zone_name": "CADIZ",
+    "country_code2": "ES",
+    "zone_expreg": "^ES11[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-S",
+    "zone_name": "CANTABRIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES39[0-9]{3}$",
+    "zone_ccaa": "CB",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CS",
+    "zone_name": "CASTELLON",
+    "country_code2": "ES",
+    "zone_expreg": "^ES12[0-9]{3}$",
+    "zone_ccaa": "VC",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CE",
+    "zone_name": "CEUTA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES51[0-9]{3}$",
+    "zone_ccaa": "CE",
+    "zone_group": "CEUTA Y MELILLA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CR",
+    "zone_name": "CIUDAD REAL",
+    "country_code2": "ES",
+    "zone_expreg": "^ES13[0-9]{3}$",
+    "zone_ccaa": "CM",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CO",
+    "zone_name": "CORDOBA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES14[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-CU",
+    "zone_name": "CUENCA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES16[0-9]{3}$",
+    "zone_ccaa": "CM",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GI",
+    "zone_name": "GERONA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES17[0-9]{3}$",
+    "zone_ccaa": "CT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GR",
+    "zone_name": "GRANADA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES18[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GU",
+    "zone_name": "GUADALAJARA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES19[0-9]{3}$",
+    "zone_ccaa": "CM",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-SS",
+    "zone_name": "GUIPUZCOA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES20[0-9]{3}$",
+    "zone_ccaa": "PV",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-H",
+    "zone_name": "HUELVA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES21[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-HU",
+    "zone_name": "HUESCA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES22[0-9]{3}$",
+    "zone_ccaa": "AR",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-J",
+    "zone_name": "JAEN",
+    "country_code2": "ES",
+    "zone_expreg": "^ES23[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-C",
+    "zone_name": "LA CORUÑA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES15[0-9]{3}$",
+    "zone_ccaa": "GA",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-LO",
+    "zone_name": "LA RIOJA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES26[0-9]{3}$",
+    "zone_ccaa": "RI",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GC-FU",
+    "zone_name": "LAS PALMAS - FUERTEVENTURA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES356[0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GC-LZ",
+    "zone_name": "LAS PALMAS - LANZAROTE",
+    "country_code2": "ES",
+    "zone_expreg": "^ES355[0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-GC-LA",
+    "zone_name": "LAS PALMAS - LAS PALMAS",
+    "country_code2": "ES",
+    "zone_expreg": "^ES35([0-4][0-9]{2}|9[0-9]{2})$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-LE",
+    "zone_name": "LEON",
+    "country_code2": "ES",
+    "zone_expreg": "^ES24[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-L",
+    "zone_name": "LERIDA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES25[0-9]{3}$",
+    "zone_ccaa": "CT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-LU",
+    "zone_name": "LUGO",
+    "country_code2": "ES",
+    "zone_expreg": "^ES27[0-9]{3}$",
+    "zone_ccaa": "GA",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-M",
+    "zone_name": "MADRID",
+    "country_code2": "ES",
+    "zone_expreg": "^ES28[0-9]{3}$",
+    "zone_ccaa": "MD",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-MA",
+    "zone_name": "MALAGA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES29[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-ML",
+    "zone_name": "MELILLA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES52[0-9]{3}$",
+    "zone_ccaa": "ME",
+    "zone_group": "CEUTA Y MELILLA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-MU",
+    "zone_name": "MURCIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES30[0-9]{3}$",
+    "zone_ccaa": "MC",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-NA",
+    "zone_name": "NAVARRA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES31[0-9]{3}$",
+    "zone_ccaa": "NC",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-OR",
+    "zone_name": "ORENSE",
+    "country_code2": "ES",
+    "zone_expreg": "^ES32[0-9]{3}$",
+    "zone_ccaa": "GA",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-P",
+    "zone_name": "PALENCIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES34[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-PO",
+    "zone_name": "PONTEVEDRA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES36[0-9]{3}$",
+    "zone_ccaa": "GA",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-SA",
+    "zone_name": "SALAMANCA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES37[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TF-GO",
+    "zone_name": "SANTA CRUZ DE TENERIFE - GOMERA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES388[0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TF-HI",
+    "zone_name": "SANTA CRUZ DE TENERIFE - HIERRO",
+    "country_code2": "ES",
+    "zone_expreg": "^ES389[0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TF-LP",
+    "zone_name": "SANTA CRUZ DE TENERIFE - LA PALMA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES387[0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TF-TF",
+    "zone_name": "SANTA CRUZ DE TENERIFE - TENERIFE",
+    "country_code2": "ES",
+    "zone_expreg": "^ES38[0-6][0-9]{2}$",
+    "zone_ccaa": "CN",
+    "zone_group": "CANARIAS"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-SG",
+    "zone_name": "SEGOVIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES40[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-SE",
+    "zone_name": "SEVILLA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES41[0-9]{3}$",
+    "zone_ccaa": "AN",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-SO",
+    "zone_name": "SORIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES42[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-T",
+    "zone_name": "TARRAGONA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES43[0-9]{3}$",
+    "zone_ccaa": "CT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TE",
+    "zone_name": "TERUEL",
+    "country_code2": "ES",
+    "zone_expreg": "^ES44[0-9]{3}$",
+    "zone_ccaa": "AR",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-TO",
+    "zone_name": "TOLEDO",
+    "country_code2": "ES",
+    "zone_expreg": "^ES45[0-9]{3}$",
+    "zone_ccaa": "CM",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-V",
+    "zone_name": "VALENCIA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES46[0-9]{3}$",
+    "zone_ccaa": "VC",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-VA",
+    "zone_name": "VALLADOLID",
+    "country_code2": "ES",
+    "zone_expreg": "^ES47[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-BI",
+    "zone_name": "VIZCAYA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES48[0-9]{3}$",
+    "zone_ccaa": "PV",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-ZA",
+    "zone_name": "ZAMORA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES49[0-9]{3}$",
+    "zone_ccaa": "CL",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ES",
+    "zone_code": "ES-Z",
+    "zone_name": "ZARAGOZA",
+    "country_code2": "ES",
+    "zone_expreg": "^ES50[0-9]{3}$",
+    "zone_ccaa": "AR",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "ET",
+    "zone_code": "ET",
+    "zone_name": "ETIOPIA",
+    "country_code2": "ET",
+    "zone_expreg": "^ET",
+    "zone_ccaa": "ET",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "FI",
+    "zone_code": "FI",
+    "zone_name": "FINLANDIA",
+    "country_code2": "FI",
+    "zone_expreg": "^FI",
+    "zone_ccaa": "FI",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "FJ",
+    "zone_code": "FJ",
+    "zone_name": "FIJI",
+    "country_code2": "FJ",
+    "zone_expreg": "^FJ",
+    "zone_ccaa": "FJ",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "FK",
+    "zone_code": "FK",
+    "zone_name": "ISLAS MALVINAS",
+    "country_code2": "FK",
+    "zone_expreg": "^FK",
+    "zone_ccaa": "FK",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "FM",
+    "zone_code": "FM",
+    "zone_name": "MICRONESIA",
+    "country_code2": "FM",
+    "zone_expreg": "^FM",
+    "zone_ccaa": "FM",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "FO",
+    "zone_code": "FO",
+    "zone_name": "ISLAS FAROE",
+    "country_code2": "FO",
+    "zone_expreg": "^FO",
+    "zone_ccaa": "FO",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "FR",
+    "zone_code": "FR",
+    "zone_name": "FRANCIA",
+    "country_code2": "FR",
+    "zone_expreg": "^FR",
+    "zone_ccaa": "FR",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "GA",
+    "zone_code": "GA",
+    "zone_name": "GABON",
+    "country_code2": "GA",
+    "zone_expreg": "^GA",
+    "zone_ccaa": "GA",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GB",
+    "zone_code": "GB",
+    "zone_name": "REINO UNIDO",
+    "country_code2": "GB",
+    "zone_expreg": "^GB",
+    "zone_ccaa": "GB",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "GD",
+    "zone_code": "GD",
+    "zone_name": "GRANADA",
+    "country_code2": "GD",
+    "zone_expreg": "^GD",
+    "zone_ccaa": "GD",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "GE",
+    "zone_code": "GE",
+    "zone_name": "GEORGIA",
+    "country_code2": "GE",
+    "zone_expreg": "^GE",
+    "zone_ccaa": "GE",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "GF",
+    "zone_code": "GF",
+    "zone_name": "GUAYANA FRANCESA",
+    "country_code2": "GF",
+    "zone_expreg": "^GF",
+    "zone_ccaa": "GF",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "GG",
+    "zone_code": "GG",
+    "zone_name": "GUERNSEY",
+    "country_code2": "GG",
+    "zone_expreg": "^GG",
+    "zone_ccaa": "GG",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "GH",
+    "zone_code": "GH",
+    "zone_name": "GHANA",
+    "country_code2": "GH",
+    "zone_expreg": "^GH",
+    "zone_ccaa": "GH",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GI",
+    "zone_code": "GI",
+    "zone_name": "GIBRALTAR",
+    "country_code2": "GI",
+    "zone_expreg": "^GI",
+    "zone_ccaa": "GI",
+    "zone_group": "GIBRALTAR"
+  },
+  {
+    "country_code": "GL",
+    "zone_code": "GL",
+    "zone_name": "GROENLANDIA",
+    "country_code2": "GL",
+    "zone_expreg": "^GL",
+    "zone_ccaa": "GL",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "GM",
+    "zone_code": "GM",
+    "zone_name": "GAMBIA",
+    "country_code2": "GM",
+    "zone_expreg": "^GM",
+    "zone_ccaa": "GM",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GN",
+    "zone_code": "GN",
+    "zone_name": "GUINEA",
+    "country_code2": "GN",
+    "zone_expreg": "^GN",
+    "zone_ccaa": "GN",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GP",
+    "zone_code": "GP",
+    "zone_name": "GUADALUPE",
+    "country_code2": "GP",
+    "zone_expreg": "^GP",
+    "zone_ccaa": "GP",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "GQ",
+    "zone_code": "GQ",
+    "zone_name": "GUINEA ECUATORIAL",
+    "country_code2": "GQ",
+    "zone_expreg": "^GQ",
+    "zone_ccaa": "GQ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GR",
+    "zone_code": "GR",
+    "zone_name": "GRECIA",
+    "country_code2": "GR",
+    "zone_expreg": "^GR",
+    "zone_ccaa": "GR",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "GS",
+    "zone_code": "GS",
+    "zone_name": "GEORGIA DEL SUR E ISLAS SANDWICH DEL SUR",
+    "country_code2": "GS",
+    "zone_expreg": "^GS",
+    "zone_ccaa": "GS",
+    "zone_group": "ANTÁRTIDA"
+  },
+  {
+    "country_code": "GT",
+    "zone_code": "GT",
+    "zone_name": "GUATEMALA",
+    "country_code2": "GT",
+    "zone_expreg": "^GT",
+    "zone_ccaa": "GT",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "GU",
+    "zone_code": "GU",
+    "zone_name": "GUAM",
+    "country_code2": "GU",
+    "zone_expreg": "^GU",
+    "zone_ccaa": "GU",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "GW",
+    "zone_code": "GW",
+    "zone_name": "GUINEA-BISSAU",
+    "country_code2": "GW",
+    "zone_expreg": "^GW",
+    "zone_ccaa": "GW",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "GY",
+    "zone_code": "GY",
+    "zone_name": "GUAYANA",
+    "country_code2": "GY",
+    "zone_expreg": "^GY",
+    "zone_ccaa": "GY",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "HK",
+    "zone_code": "HK",
+    "zone_name": "HONG KONG",
+    "country_code2": "HK",
+    "zone_expreg": "^HK",
+    "zone_ccaa": "HK",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "HM",
+    "zone_code": "HM",
+    "zone_name": "ISLAS HEARD Y MCDONALD",
+    "country_code2": "HM",
+    "zone_expreg": "^HM",
+    "zone_ccaa": "HM",
+    "zone_group": "ANTÁRTIDA"
+  },
+  {
+    "country_code": "HT",
+    "zone_code": "HT",
+    "zone_name": "HAITI",
+    "country_code2": "HT",
+    "zone_expreg": "^HT",
+    "zone_ccaa": "HT",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "HR",
+    "zone_code": "HR",
+    "zone_name": "CROACIA",
+    "country_code2": "HR",
+    "zone_expreg": "^HR",
+    "zone_ccaa": "HR",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "HN",
+    "zone_code": "HN",
+    "zone_name": "HONDURAS",
+    "country_code2": "HN",
+    "zone_expreg": "^HN",
+    "zone_ccaa": "HN",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "HU",
+    "zone_code": "HU",
+    "zone_name": "HUNGRIA",
+    "country_code2": "HU",
+    "zone_expreg": "^HU",
+    "zone_ccaa": "HU",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "ID",
+    "zone_code": "ID",
+    "zone_name": "INDONESIA",
+    "country_code2": "ID",
+    "zone_expreg": "^ID",
+    "zone_ccaa": "ID",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IE",
+    "zone_code": "IE",
+    "zone_name": "IRLANDA",
+    "country_code2": "IE",
+    "zone_expreg": "^IE",
+    "zone_ccaa": "IE",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "IL",
+    "zone_code": "IL",
+    "zone_name": "ISRAEL",
+    "country_code2": "IL",
+    "zone_expreg": "^IL",
+    "zone_ccaa": "IL",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IM",
+    "zone_code": "IM",
+    "zone_name": "ISLA DE MAN",
+    "country_code2": "IM",
+    "zone_expreg": "^IM",
+    "zone_ccaa": "IM",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "IN",
+    "zone_code": "IN",
+    "zone_name": "INDIA",
+    "country_code2": "IN",
+    "zone_expreg": "^IN",
+    "zone_ccaa": "IN",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IO",
+    "zone_code": "IO",
+    "zone_name": "TERRITORIO BRITANICO DEL OCEANO INDICO",
+    "country_code2": "IO",
+    "zone_expreg": "^IO",
+    "zone_ccaa": "IO",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IQ",
+    "zone_code": "IQ",
+    "zone_name": "IRAK",
+    "country_code2": "IQ",
+    "zone_expreg": "^IQ",
+    "zone_ccaa": "IQ",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IR",
+    "zone_code": "IR",
+    "zone_name": "IRAN",
+    "country_code2": "IR",
+    "zone_expreg": "^IR",
+    "zone_ccaa": "IR",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "IS",
+    "zone_code": "IS",
+    "zone_name": "ISLANDIA",
+    "country_code2": "IS",
+    "zone_expreg": "^IS",
+    "zone_ccaa": "IS",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "IT",
+    "zone_code": "IT",
+    "zone_name": "ITALIA",
+    "country_code2": "IT",
+    "zone_expreg": "^IT",
+    "zone_ccaa": "IT",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "JE",
+    "zone_code": "JE",
+    "zone_name": "JERSEY",
+    "country_code2": "JE",
+    "zone_expreg": "^JE",
+    "zone_ccaa": "JE",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "KY",
+    "zone_code": "KY",
+    "zone_name": "ISLAS CAIMAN",
+    "country_code2": "KY",
+    "zone_expreg": "^KY",
+    "zone_ccaa": "KY",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "JO",
+    "zone_code": "JO",
+    "zone_name": "JORDANIA",
+    "country_code2": "JO",
+    "zone_expreg": "^JO",
+    "zone_ccaa": "JO",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "JP",
+    "zone_code": "JP",
+    "zone_name": "JAPON",
+    "country_code2": "JP",
+    "zone_expreg": "^JP",
+    "zone_ccaa": "JP",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "KE",
+    "zone_code": "KE",
+    "zone_name": "KENIA",
+    "country_code2": "KE",
+    "zone_expreg": "^KE",
+    "zone_ccaa": "KE",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "KG",
+    "zone_code": "KG",
+    "zone_name": "KIRGUISTAN",
+    "country_code2": "KG",
+    "zone_expreg": "^KG",
+    "zone_ccaa": "KG",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "KH",
+    "zone_code": "KH",
+    "zone_name": "CAMBOYA",
+    "country_code2": "KH",
+    "zone_expreg": "^KH",
+    "zone_ccaa": "KH",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "KI",
+    "zone_code": "KI",
+    "zone_name": "KIRIBATI",
+    "country_code2": "KI",
+    "zone_expreg": "^KI",
+    "zone_ccaa": "KI",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "KM",
+    "zone_code": "KM",
+    "zone_name": "COMOROS",
+    "country_code2": "KM",
+    "zone_expreg": "^KM",
+    "zone_ccaa": "KM",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "TC",
+    "zone_code": "TC",
+    "zone_name": "ISLAS TURCAS Y CAICOS",
+    "country_code2": "TC",
+    "zone_expreg": "^TC",
+    "zone_ccaa": "TC",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "KP",
+    "zone_code": "KP",
+    "zone_name": "COREA DEL NORTE",
+    "country_code2": "KP",
+    "zone_expreg": "^KP",
+    "zone_ccaa": "KP",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "KR",
+    "zone_code": "KR",
+    "zone_name": "COREA DEL SUR",
+    "country_code2": "KR",
+    "zone_expreg": "^KR",
+    "zone_ccaa": "KR",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "KW",
+    "zone_code": "KW",
+    "zone_name": "KUWAIT",
+    "country_code2": "KW",
+    "zone_expreg": "^KW",
+    "zone_ccaa": "KW",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "VG",
+    "zone_code": "VG",
+    "zone_name": "ISLAS VIRGENES BRITANICAS",
+    "country_code2": "VG",
+    "zone_expreg": "^VG",
+    "zone_ccaa": "VG",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "KZ",
+    "zone_code": "KZ",
+    "zone_name": "KAZAJSTAN",
+    "country_code2": "KZ",
+    "zone_expreg": "^KZ",
+    "zone_ccaa": "KZ",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "LA",
+    "zone_code": "LA",
+    "zone_name": "LAOS",
+    "country_code2": "LA",
+    "zone_expreg": "^LA",
+    "zone_ccaa": "LA",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "LB",
+    "zone_code": "LB",
+    "zone_name": "LIBANO",
+    "country_code2": "LB",
+    "zone_expreg": "^LB",
+    "zone_ccaa": "LB",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "VI",
+    "zone_code": "VI",
+    "zone_name": "ISLAS VIRGENES DE LOS ESTADOS UNIDOS DE AMERICA",
+    "country_code2": "VI",
+    "zone_expreg": "^VI",
+    "zone_ccaa": "VI",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "LI",
+    "zone_code": "LI",
+    "zone_name": "LIECHTENSTEIN",
+    "country_code2": "LI",
+    "zone_expreg": "^LI",
+    "zone_ccaa": "LI",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "LK",
+    "zone_code": "LK",
+    "zone_name": "SRI LANKA",
+    "country_code2": "LK",
+    "zone_expreg": "^LK",
+    "zone_ccaa": "LK",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "LR",
+    "zone_code": "LR",
+    "zone_name": "LIBERIA",
+    "country_code2": "LR",
+    "zone_expreg": "^LR",
+    "zone_ccaa": "LR",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "LS",
+    "zone_code": "LS",
+    "zone_name": "LESOTHO",
+    "country_code2": "LS",
+    "zone_expreg": "^LS",
+    "zone_ccaa": "LS",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "LT",
+    "zone_code": "LT",
+    "zone_name": "LITUANIA",
+    "country_code2": "LT",
+    "zone_expreg": "^LT",
+    "zone_ccaa": "LT",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "LU",
+    "zone_code": "LU",
+    "zone_name": "LUXEMBURGO",
+    "country_code2": "LU",
+    "zone_expreg": "^LU",
+    "zone_ccaa": "LU",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "LV",
+    "zone_code": "LV",
+    "zone_name": "LETONIA",
+    "country_code2": "LV",
+    "zone_expreg": "^LV",
+    "zone_ccaa": "LV",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "LY",
+    "zone_code": "LY",
+    "zone_name": "LIBIA",
+    "country_code2": "LY",
+    "zone_expreg": "^LY",
+    "zone_ccaa": "LY",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MA",
+    "zone_code": "MA",
+    "zone_name": "MARRUECOS",
+    "country_code2": "MA",
+    "zone_expreg": "^MA",
+    "zone_ccaa": "MA",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MC",
+    "zone_code": "MC",
+    "zone_name": "MONACO",
+    "country_code2": "MC",
+    "zone_expreg": "^MC",
+    "zone_ccaa": "MC",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "MD",
+    "zone_code": "MD",
+    "zone_name": "MOLDOVA",
+    "country_code2": "MD",
+    "zone_expreg": "^MD",
+    "zone_ccaa": "MD",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "ME",
+    "zone_code": "ME",
+    "zone_name": "MONTENEGRO",
+    "country_code2": "ME",
+    "zone_expreg": "^ME",
+    "zone_ccaa": "ME",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "MG",
+    "zone_code": "MG",
+    "zone_name": "MADAGASCAR",
+    "country_code2": "MG",
+    "zone_expreg": "^MG",
+    "zone_ccaa": "MG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MH",
+    "zone_code": "MH",
+    "zone_name": "ISLAS MARSHALL",
+    "country_code2": "MH",
+    "zone_expreg": "^MH",
+    "zone_ccaa": "MH",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "MK",
+    "zone_code": "MK",
+    "zone_name": "MACEDONIA",
+    "country_code2": "MK",
+    "zone_expreg": "^MK",
+    "zone_ccaa": "MK",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "ML",
+    "zone_code": "ML",
+    "zone_name": "MALI",
+    "country_code2": "ML",
+    "zone_expreg": "^ML",
+    "zone_ccaa": "ML",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MM",
+    "zone_code": "MM",
+    "zone_name": "MYANMAR",
+    "country_code2": "MM",
+    "zone_expreg": "^MM",
+    "zone_ccaa": "MM",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "MN",
+    "zone_code": "MN",
+    "zone_name": "MONGOLIA",
+    "country_code2": "MN",
+    "zone_expreg": "^MN",
+    "zone_ccaa": "MN",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "MO",
+    "zone_code": "MO",
+    "zone_name": "MACAO",
+    "country_code2": "MO",
+    "zone_expreg": "^MO",
+    "zone_ccaa": "MO",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "JM",
+    "zone_code": "JM",
+    "zone_name": "JAMAICA",
+    "country_code2": "JM",
+    "zone_expreg": "^JM",
+    "zone_ccaa": "JM",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "MR",
+    "zone_code": "MR",
+    "zone_name": "MAURITANIA",
+    "country_code2": "MR",
+    "zone_expreg": "^MR",
+    "zone_ccaa": "MR",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MQ",
+    "zone_code": "MQ",
+    "zone_name": "MARTINICA",
+    "country_code2": "MQ",
+    "zone_expreg": "^MQ",
+    "zone_ccaa": "MQ",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "MT",
+    "zone_code": "MT",
+    "zone_name": "MALTA",
+    "country_code2": "MT",
+    "zone_expreg": "^MT",
+    "zone_ccaa": "MT",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "MU",
+    "zone_code": "MU",
+    "zone_name": "MAURICIO",
+    "country_code2": "MU",
+    "zone_expreg": "^MU",
+    "zone_ccaa": "MU",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MV",
+    "zone_code": "MV",
+    "zone_name": "MALDIVAS",
+    "country_code2": "MV",
+    "zone_expreg": "^MV",
+    "zone_ccaa": "MV",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "MW",
+    "zone_code": "MW",
+    "zone_name": "MALAWI",
+    "country_code2": "MW",
+    "zone_expreg": "^MW",
+    "zone_ccaa": "MW",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MX",
+    "zone_code": "MX",
+    "zone_name": "MEXICO",
+    "country_code2": "MX",
+    "zone_expreg": "^MX",
+    "zone_ccaa": "MX",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "MY",
+    "zone_code": "MY",
+    "zone_name": "MALASIA",
+    "country_code2": "MY",
+    "zone_expreg": "^MY",
+    "zone_ccaa": "MY",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "MZ",
+    "zone_code": "MZ",
+    "zone_name": "MOZAMBIQUE",
+    "country_code2": "MZ",
+    "zone_expreg": "^MZ",
+    "zone_ccaa": "MZ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "NA",
+    "zone_code": "NA",
+    "zone_name": "NAMIBIA",
+    "country_code2": "NA",
+    "zone_expreg": "^NA",
+    "zone_ccaa": "NA",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "NC",
+    "zone_code": "NC",
+    "zone_name": "NUEVA CALEDONIA",
+    "country_code2": "NC",
+    "zone_expreg": "^NC",
+    "zone_ccaa": "NC",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "NE",
+    "zone_code": "NE",
+    "zone_name": "NIGER",
+    "country_code2": "NE",
+    "zone_expreg": "^NE",
+    "zone_ccaa": "NE",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "NF",
+    "zone_code": "NF",
+    "zone_name": "ISLAS NORKFOLK",
+    "country_code2": "NF",
+    "zone_expreg": "^NF",
+    "zone_ccaa": "NF",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "NG",
+    "zone_code": "NG",
+    "zone_name": "NIGERIA",
+    "country_code2": "NG",
+    "zone_expreg": "^NG",
+    "zone_ccaa": "NG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "MS",
+    "zone_code": "MS",
+    "zone_name": "MONTSERRAT",
+    "country_code2": "MS",
+    "zone_expreg": "^MS",
+    "zone_ccaa": "MS",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "NL",
+    "zone_code": "NL",
+    "zone_name": "PAISES BAJOS",
+    "country_code2": "NL",
+    "zone_expreg": "^NL",
+    "zone_ccaa": "NL",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "NO",
+    "zone_code": "NO",
+    "zone_name": "NORUEGA",
+    "country_code2": "NO",
+    "zone_expreg": "^NO",
+    "zone_ccaa": "NO",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "NP",
+    "zone_code": "NP",
+    "zone_name": "NEPAL",
+    "country_code2": "NP",
+    "zone_expreg": "^NP",
+    "zone_ccaa": "NP",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "NR",
+    "zone_code": "NR",
+    "zone_name": "NAURU",
+    "country_code2": "NR",
+    "zone_expreg": "^NR",
+    "zone_ccaa": "NR",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "NU",
+    "zone_code": "NU",
+    "zone_name": "NIUE",
+    "country_code2": "NU",
+    "zone_expreg": "^NU",
+    "zone_ccaa": "NU",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "NZ",
+    "zone_code": "NZ",
+    "zone_name": "NUEVA ZELANDA",
+    "country_code2": "NZ",
+    "zone_expreg": "^NZ",
+    "zone_ccaa": "NZ",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "OM",
+    "zone_code": "OM",
+    "zone_name": "OMAN",
+    "country_code2": "OM",
+    "zone_expreg": "^OM",
+    "zone_ccaa": "OM",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "NI",
+    "zone_code": "NI",
+    "zone_name": "NICARAGUA",
+    "country_code2": "NI",
+    "zone_expreg": "^NI",
+    "zone_ccaa": "NI",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "PE",
+    "zone_code": "PE",
+    "zone_name": "PERU",
+    "country_code2": "PE",
+    "zone_expreg": "^PE",
+    "zone_ccaa": "PE",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "PF",
+    "zone_code": "PF",
+    "zone_name": "POLINESIA FRANCESA",
+    "country_code2": "PF",
+    "zone_expreg": "^PF",
+    "zone_ccaa": "PF",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "PG",
+    "zone_code": "PG",
+    "zone_name": "PAPUA NUEVA GUINEA",
+    "country_code2": "PG",
+    "zone_expreg": "^PG",
+    "zone_ccaa": "PG",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "PH",
+    "zone_code": "PH",
+    "zone_name": "FILIPINAS",
+    "country_code2": "PH",
+    "zone_expreg": "^PH",
+    "zone_ccaa": "PH",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "PK",
+    "zone_code": "PK",
+    "zone_name": "PAKISTAN",
+    "country_code2": "PK",
+    "zone_expreg": "^PK",
+    "zone_ccaa": "PK",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "PL",
+    "zone_code": "PL",
+    "zone_name": "POLONIA",
+    "country_code2": "PL",
+    "zone_expreg": "^PL",
+    "zone_ccaa": "PL",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "PA",
+    "zone_code": "PA",
+    "zone_name": "PANAMA",
+    "country_code2": "PA",
+    "zone_expreg": "^PA",
+    "zone_ccaa": "PA",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "PM",
+    "zone_code": "PM",
+    "zone_name": "SAN PEDRO Y MIQUELON",
+    "country_code2": "PM",
+    "zone_expreg": "^PM",
+    "zone_ccaa": "PM",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "PN",
+    "zone_code": "PN",
+    "zone_name": "ISLAS PITCAIRN",
+    "country_code2": "PN",
+    "zone_expreg": "^PN",
+    "zone_ccaa": "PN",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "PR",
+    "zone_code": "PR",
+    "zone_name": "PUERTO RICO",
+    "country_code2": "PR",
+    "zone_expreg": "^PR",
+    "zone_ccaa": "PR",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "PS",
+    "zone_code": "PS",
+    "zone_name": "PALESTINA",
+    "country_code2": "PS",
+    "zone_expreg": "^PS",
+    "zone_ccaa": "PS",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AV",
+    "zone_name": "AVEIRO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((305[0-9])|(306[4-9])|(307[1-3])|(364[1-3])|(370[0-9]|37[1-9][0-9]|38[0-9]{2}|39[0-8][0-9]|399[0-9])|(450[0-8])|(452[0-9]|453[0-5])|(454[0-9]|455[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-CO",
+    "zone_name": "AZORES - CORVO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((998[0-4]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-FA",
+    "zone_name": "AZORES - FAILAL",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((990[0-9]|991[0-9]|992[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-FL",
+    "zone_name": "AZORES - FLORES",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((996[0-9]|997[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-GR",
+    "zone_name": "AZORES - GRACIOSA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((988[0-9]|989[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-PI",
+    "zone_name": "AZORES - PICO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((993[0-9]|994[0-9]|995[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-SM",
+    "zone_name": "AZORES - SANTA MARIA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((958[0-9]|959[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-SJ",
+    "zone_name": "AZORES - SAO JORGE",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((980[0-9]|98[1-6][0-9]|987[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-SA",
+    "zone_name": "AZORES - SAO MIGUEL",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((950[0-9]|95[1-6][0-9]|957[0-9])|(960[0-9]|96[1-2][0-9]|963[0-9])|(965[0-9]|96[6-8][0-9]|969[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-AZ-TE",
+    "zone_name": "AZORES - TERCEIRA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((964[0-9])|(970[0-9]|97[1-8][0-9]|979[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "AZORES"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-BE",
+    "zone_name": "BEJA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((706[0-9]|707[0-9])|(723[0-9])|(760[0-9]|76[1-9][0-9]|7[7-8][0-9]{2}|79[0-8][0-9]|799[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-BR",
+    "zone_name": "BRAGA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((461[6-9])|(464[2-3])|(464[5-9])|(470[0-9]|47[1-3][0-9]|474[0-4])|(475[0-9]|476[0-9]|477[0-9])|(480[0-9]|481[0-4])|(481[6-9]|482[0-4])|(483[0-9]|48[4-5][0-9]|486[0-3])|(489[0-9])|(490[5-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-BG",
+    "zone_name": "BRAGANCA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((514[0-9])|(516[0-9]|51[7-9][0-9]|52[0-9]{2}|53[0-8][0-9]|539[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-CB",
+    "zone_name": "CASTELO BRANCO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((600[0-9]|60[1-2][0-9]|603[0-9])|(606[0-9]|60[7-9][0-9]|610[0-9]|611[0-9])|(613[0-9]|61[4-9][0-9]|62[0-3][0-9]|624[0-9])|(625[1-9])|(6320))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-CO",
+    "zone_name": "COIMBRA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((300[0-9]|30[1-3][0-9]|304[0-9])|(306[0-3])|(3070)|(307[4-9]|308[0-9]|309[0-9])|(313[0-9]|31[4-9][0-9]|32[0-2][0-9]|323[0-9])|(330[0-9]|33[1-9][0-9]|34[0-1][0-9]|3420)|(6285))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-EV",
+    "zone_name": "EVORA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((640[2-9]|641[0-9])|(645[0-9]|64[6-9][0-9]|6[5-9][0-9]{2}|70[0-4][0-9]|705[0-9])|(708[0-9]|709[0-9]|71[0-9]{2}|72[0-1][0-9]|722[0-9])|(724[0-9]|72[5-8][0-9]|729[0-9])|(749[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-FA",
+    "zone_name": "FARO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((800[0-9]|80[1-9][0-9]|8[1-8][0-9]{2}|89[0-8][0-9]|899[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-GU",
+    "zone_name": "GUARDA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((356[4-9]|35[7-8][0-9]|359[0-9])|(3640)|(515[0-9])|(6250)|(626[0-9]|627[0-9]|628[0-4])|(628[6-9]|629[0-9]|630[0-9]|631[0-9])|(632[1-9]|63[3-9][0-9]|640[0-1])|(642[0-9]|643[0-9]|644[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-LE",
+    "zone_name": "LEIRIA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((240[0-9]|24[1-2][0-9]|243[0-4])|(243[6-8])|(244[0-9]|24[5-7][0-9]|248[0-9])|(2494)|(249[6-9]|25[0-1][0-9]|252[0-9])|(254[0-9])|(310[0-9]|311[0-9]|312[0-9])|(324[0-9]|32[5-8][0-9]|329[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-LI",
+    "zone_name": "LISBOA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((100[0-9]|10[1-9][0-9]|1[1-8][0-9]{2}|19[0-8][0-9]|199[0-9])|(205[0-9]|206[0-3])|(206[5-9])|(253[0-9])|(255[0-9]|25[6-9][0-9]|26[0-4][0-9]|265[0-8])|(266[0-5])|(2669|26[7-9][0-9]|27[0-8][0-9]|279[0-9])|(288[5-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-MA-MA",
+    "zone_name": "MADEIRA - MADEIRA",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((900[0-9]|90[1-9][0-9]|9[1-2][0-9]{2}|93[0-8][0-9]|939[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "MADEIRA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-MA-PS",
+    "zone_name": "MADEIRA - PORTO SANTO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((940[0-9]|94[1-8][0-9]|949[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "MADEIRA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-PA",
+    "zone_name": "PORTALEGRE",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((604[0-9]|605[0-9])|(730[0-9]|73[1-9][0-9]|74[0-7][0-9]|748[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-PO",
+    "zone_name": "PORTO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((400[0-9]|40[1-9][0-9]|4[1-3][0-9]{2}|44[0-8][0-9]|449[0-9])|(4509|451[0-9])|(453[6-9])|(456[0-9]|45[7-9][0-9]|460[0-9]|461[0-5])|(462[0-9]|463[0-9]|464[0-1])|(4644)|(465[0-9])|(466[5-9]|467[0-9]|468[0-9])|(474[5-9])|(478[0-9]|479[0-9])|(4815)|(482[5-9])|(5040))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-SA",
+    "zone_name": "SANTAREM",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((200[0-9]|20[1-3][0-9]|204[0-9])|(2064)|(207[0-9]|208[0-4])|(209[0-9]|2[1-2][0-9]{2}|23[0-8][0-9]|239[0-9])|(2435)|(2439)|(249[0-3])|(2495)|(2890)|(612[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-SE",
+    "zone_name": "SETUBAL",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((208[5-9])|(2659)|(266[6-8])|(280[0-9]|28[1-7][0-9]|288[0-4])|(289[1-9]|29[0-8][0-9]|299[0-9])|(750[0-9]|75[1-8][0-9]|759[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-VC",
+    "zone_name": "VIANA DO CASTELO",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((490[0-4])|(491[0-9]|49[2-8][0-9]|499[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-VR",
+    "zone_name": "VILA REAL",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((486[4-9]|487[0-9]|488[0-9])|(500[0-9]|50[1-2][0-9]|503[0-9])|(504[1-9]|50[5-8][0-9]|509[0-9])|(540[0-9]|54[1-9][0-9]|5[5-8][0-9]{2}|59[0-8][0-9]|599[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PT",
+    "zone_code": "PT-VI",
+    "zone_name": "VISEU",
+    "country_code2": "PT",
+    "zone_expreg": "^PT((342[1-9]|34[3-9][0-9]|35[0-5][0-9]|356[0-3])|(360[0-9]|36[1-2][0-9]|363[0-9])|(364[4-9]|36[5-8][0-9]|369[0-9])|(466[0-4])|(469[0-9])|(510[0-9]|51[1-2][0-9]|513[0-9]))-?([0-9]{3})?$",
+    "zone_ccaa": "PT",
+    "zone_group": "PENINSULA"
+  },
+  {
+    "country_code": "PW",
+    "zone_code": "PW",
+    "zone_name": "ISLAS PALAOS",
+    "country_code2": "PW",
+    "zone_expreg": "^PW",
+    "zone_ccaa": "PW",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "PY",
+    "zone_code": "PY",
+    "zone_name": "PARAGUAY",
+    "country_code2": "PY",
+    "zone_expreg": "^PY",
+    "zone_ccaa": "PY",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "QA",
+    "zone_code": "QA",
+    "zone_name": "QATAR",
+    "country_code2": "QA",
+    "zone_expreg": "^QA",
+    "zone_ccaa": "QA",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "RE",
+    "zone_code": "RE",
+    "zone_name": "REUNION",
+    "country_code2": "RE",
+    "zone_expreg": "^RE",
+    "zone_ccaa": "RE",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "RO",
+    "zone_code": "RO",
+    "zone_name": "RUMANIA",
+    "country_code2": "RO",
+    "zone_expreg": "^RO",
+    "zone_ccaa": "RO",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "RS",
+    "zone_code": "RS",
+    "zone_name": "SERBIA Y MONTENEGRO",
+    "country_code2": "RS",
+    "zone_expreg": "^RS",
+    "zone_ccaa": "RS",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "RU",
+    "zone_code": "RU",
+    "zone_name": "RUSIA",
+    "country_code2": "RU",
+    "zone_expreg": "^RU",
+    "zone_ccaa": "RU",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "RW",
+    "zone_code": "RW",
+    "zone_name": "RUANDA",
+    "country_code2": "RW",
+    "zone_expreg": "^RW",
+    "zone_ccaa": "RW",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SA",
+    "zone_code": "SA",
+    "zone_name": "ARABIA SAUDITA",
+    "country_code2": "SA",
+    "zone_expreg": "^SA",
+    "zone_ccaa": "SA",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "SB",
+    "zone_code": "SB",
+    "zone_name": "ISLAS SOLOMON",
+    "country_code2": "SB",
+    "zone_expreg": "^SB",
+    "zone_ccaa": "SB",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "SC",
+    "zone_code": "SC",
+    "zone_name": "SEYCHELLES",
+    "country_code2": "SC",
+    "zone_expreg": "^SC",
+    "zone_ccaa": "SC",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SD",
+    "zone_code": "SD",
+    "zone_name": "SUDAN",
+    "country_code2": "SD",
+    "zone_expreg": "^SD",
+    "zone_ccaa": "SD",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SE",
+    "zone_code": "SE",
+    "zone_name": "SUECIA",
+    "country_code2": "SE",
+    "zone_expreg": "^SE",
+    "zone_ccaa": "SE",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "SG",
+    "zone_code": "SG",
+    "zone_name": "SINGAPUR",
+    "country_code2": "SG",
+    "zone_expreg": "^SG",
+    "zone_ccaa": "SG",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "SH",
+    "zone_code": "SH",
+    "zone_name": "SANTA ELENA",
+    "country_code2": "SH",
+    "zone_expreg": "^SH",
+    "zone_ccaa": "SH",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SI",
+    "zone_code": "SI",
+    "zone_name": "ESLOVENIA",
+    "country_code2": "SI",
+    "zone_expreg": "^SI",
+    "zone_ccaa": "SI",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "SJ",
+    "zone_code": "SJ",
+    "zone_name": "ISLAS SVALBARD Y JAN MAYEN",
+    "country_code2": "SJ",
+    "zone_expreg": "^SJ",
+    "zone_ccaa": "SJ",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "SK",
+    "zone_code": "SK",
+    "zone_name": "ESLOVAQUIA",
+    "country_code2": "SK",
+    "zone_expreg": "^SK",
+    "zone_ccaa": "SK",
+    "zone_group": "UNION EUROPEA"
+  },
+  {
+    "country_code": "SL",
+    "zone_code": "SL",
+    "zone_name": "SIERRA LEONA",
+    "country_code2": "SL",
+    "zone_expreg": "^SL",
+    "zone_ccaa": "SL",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SM",
+    "zone_code": "SM",
+    "zone_name": "SAN MARINO",
+    "country_code2": "SM",
+    "zone_expreg": "^SM",
+    "zone_ccaa": "SM",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "SN",
+    "zone_code": "SN",
+    "zone_name": "SENEGAL",
+    "country_code2": "SN",
+    "zone_expreg": "^SN",
+    "zone_ccaa": "SN",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SO",
+    "zone_code": "SO",
+    "zone_name": "SOMALIA",
+    "country_code2": "SO",
+    "zone_expreg": "^SO",
+    "zone_ccaa": "SO",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "SR",
+    "zone_code": "SR",
+    "zone_name": "SURINAM",
+    "country_code2": "SR",
+    "zone_expreg": "^SR",
+    "zone_ccaa": "SR",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "ST",
+    "zone_code": "ST",
+    "zone_name": "SANTO TOME Y PRINCIPE",
+    "country_code2": "ST",
+    "zone_expreg": "^ST",
+    "zone_ccaa": "ST",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "DO",
+    "zone_code": "DO",
+    "zone_name": "REPUBLICA DOMINICANA",
+    "country_code2": "DO",
+    "zone_expreg": "^DO",
+    "zone_ccaa": "DO",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "SY",
+    "zone_code": "SY",
+    "zone_name": "SIRIA",
+    "country_code2": "SY",
+    "zone_expreg": "^SY",
+    "zone_ccaa": "SY",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "SZ",
+    "zone_code": "SZ",
+    "zone_name": "SUAZILANDIA",
+    "country_code2": "SZ",
+    "zone_expreg": "^SZ",
+    "zone_ccaa": "SZ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "BL",
+    "zone_code": "BL",
+    "zone_name": "SAN BARTOLOME",
+    "country_code2": "BL",
+    "zone_expreg": "^BL",
+    "zone_ccaa": "BL",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "TD",
+    "zone_code": "TD",
+    "zone_name": "CHAD",
+    "country_code2": "TD",
+    "zone_expreg": "^TD",
+    "zone_ccaa": "TD",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "TF",
+    "zone_code": "TF",
+    "zone_name": "TERRITORIOS AUSTRALES FRANCESES",
+    "country_code2": "TF",
+    "zone_expreg": "^TF",
+    "zone_ccaa": "TF",
+    "zone_group": "ANTÁRTIDA"
+  },
+  {
+    "country_code": "TG",
+    "zone_code": "TG",
+    "zone_name": "TOGO",
+    "country_code2": "TG",
+    "zone_expreg": "^TG",
+    "zone_ccaa": "TG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "TH",
+    "zone_code": "TH",
+    "zone_name": "TAILANDIA",
+    "country_code2": "TH",
+    "zone_expreg": "^TH",
+    "zone_ccaa": "TH",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "TZ",
+    "zone_code": "TZ",
+    "zone_name": "TANZANIA",
+    "country_code2": "TZ",
+    "zone_expreg": "^TZ",
+    "zone_ccaa": "TZ",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "TJ",
+    "zone_code": "TJ",
+    "zone_name": "TAYIKISTAN",
+    "country_code2": "TJ",
+    "zone_expreg": "^TJ",
+    "zone_ccaa": "TJ",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "TK",
+    "zone_code": "TK",
+    "zone_name": "TOKELAU",
+    "country_code2": "TK",
+    "zone_expreg": "^TK",
+    "zone_ccaa": "TK",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "TL",
+    "zone_code": "TL",
+    "zone_name": "TIMOR-LESTE",
+    "country_code2": "TL",
+    "zone_expreg": "^TL",
+    "zone_ccaa": "TL",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "TM",
+    "zone_code": "TM",
+    "zone_name": "TURKMENISTAN",
+    "country_code2": "TM",
+    "zone_expreg": "^TM",
+    "zone_ccaa": "TM",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "TN",
+    "zone_code": "TN",
+    "zone_name": "TUNEZ",
+    "country_code2": "TN",
+    "zone_expreg": "^TN",
+    "zone_ccaa": "TN",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "TO",
+    "zone_code": "TO",
+    "zone_name": "TONGA",
+    "country_code2": "TO",
+    "zone_expreg": "^TO",
+    "zone_ccaa": "TO",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "TR",
+    "zone_code": "TR",
+    "zone_name": "TURQUIA",
+    "country_code2": "TR",
+    "zone_expreg": "^TR",
+    "zone_ccaa": "TR",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "KN",
+    "zone_code": "KN",
+    "zone_name": "SAN CRISTOBAL Y NIEVES",
+    "country_code2": "KN",
+    "zone_expreg": "^KN",
+    "zone_ccaa": "KN",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "TV",
+    "zone_code": "TV",
+    "zone_name": "TUVALU",
+    "country_code2": "TV",
+    "zone_expreg": "^TV",
+    "zone_ccaa": "TV",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "TW",
+    "zone_code": "TW",
+    "zone_name": "TAIWAN",
+    "country_code2": "TW",
+    "zone_expreg": "^TW",
+    "zone_ccaa": "TW",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "UA",
+    "zone_code": "UA",
+    "zone_name": "UCRANIA",
+    "country_code2": "UA",
+    "zone_expreg": "^UA",
+    "zone_ccaa": "UA",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "UG",
+    "zone_code": "UG",
+    "zone_name": "UGANDA",
+    "country_code2": "UG",
+    "zone_expreg": "^UG",
+    "zone_ccaa": "UG",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "US",
+    "zone_code": "US",
+    "zone_name": "ESTADOS UNIDOS DE AMERICA",
+    "country_code2": "US",
+    "zone_expreg": "^US",
+    "zone_ccaa": "US",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "UY",
+    "zone_code": "UY",
+    "zone_name": "URUGUAY",
+    "country_code2": "UY",
+    "zone_expreg": "^UY",
+    "zone_ccaa": "UY",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "UZ",
+    "zone_code": "UZ",
+    "zone_name": "UZBEKISTAN",
+    "country_code2": "UZ",
+    "zone_expreg": "^UZ",
+    "zone_ccaa": "UZ",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "VA",
+    "zone_code": "VA",
+    "zone_name": "CIUDAD DEL VATICANO",
+    "country_code2": "VA",
+    "zone_expreg": "^VA",
+    "zone_ccaa": "VA",
+    "zone_group": "EUROPA"
+  },
+  {
+    "country_code": "VC",
+    "zone_code": "VC",
+    "zone_name": "SAN VICENTE Y LAS GRANADINAS",
+    "country_code2": "VC",
+    "zone_expreg": "^VC",
+    "zone_ccaa": "VC",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "VE",
+    "zone_code": "VE",
+    "zone_name": "VENEZUELA",
+    "country_code2": "VE",
+    "zone_expreg": "^VE",
+    "zone_ccaa": "VE",
+    "zone_group": "SURAMÉRICA"
+  },
+  {
+    "country_code": "LC",
+    "zone_code": "LC",
+    "zone_name": "SANTA LUCIA",
+    "country_code2": "LC",
+    "zone_expreg": "^LC",
+    "zone_ccaa": "LC",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "TT",
+    "zone_code": "TT",
+    "zone_name": "TRINIDAD Y TOBAGO",
+    "country_code2": "TT",
+    "zone_expreg": "^TT",
+    "zone_ccaa": "TT",
+    "zone_group": "NORTEAMÉRICA"
+  },
+  {
+    "country_code": "VN",
+    "zone_code": "VN",
+    "zone_name": "VIETNAM",
+    "country_code2": "VN",
+    "zone_expreg": "^VN",
+    "zone_ccaa": "VN",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "VU",
+    "zone_code": "VU",
+    "zone_name": "VANUATU",
+    "country_code2": "VU",
+    "zone_expreg": "^VU",
+    "zone_ccaa": "VU",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "WF",
+    "zone_code": "WF",
+    "zone_name": "WALLIS Y FUTUNA",
+    "country_code2": "WF",
+    "zone_expreg": "^WF",
+    "zone_ccaa": "WF",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "WS",
+    "zone_code": "WS",
+    "zone_name": "SAMOA",
+    "country_code2": "WS",
+    "zone_expreg": "^WS",
+    "zone_ccaa": "WS",
+    "zone_group": "OCEANÍA"
+  },
+  {
+    "country_code": "YE",
+    "zone_code": "YE",
+    "zone_name": "YEMEN",
+    "country_code2": "YE",
+    "zone_expreg": "^YE",
+    "zone_ccaa": "YE",
+    "zone_group": "ASIA"
+  },
+  {
+    "country_code": "YT",
+    "zone_code": "YT",
+    "zone_name": "MAYOTTE",
+    "country_code2": "YT",
+    "zone_expreg": "^YT",
+    "zone_ccaa": "YT",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "ZA",
+    "zone_code": "ZA",
+    "zone_name": "SUDAFRICA",
+    "country_code2": "ZA",
+    "zone_expreg": "^ZA",
+    "zone_ccaa": "ZA",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "ZM",
+    "zone_code": "ZM",
+    "zone_name": "ZAMBIA",
+    "country_code2": "ZM",
+    "zone_expreg": "^ZM",
+    "zone_ccaa": "ZM",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "ZW",
+    "zone_code": "ZW",
+    "zone_name": "ZIMBABUE",
+    "country_code2": "ZW",
+    "zone_expreg": "^ZW",
+    "zone_ccaa": "ZW",
+    "zone_group": "AFRICA"
+  },
+  {
+    "country_code": "CD",
+    "zone_code": "CD",
+    "zone_name": "CONGO DEM REP",
+    "country_code2": "CD",
+    "zone_expreg": "^CD",
+    "zone_ccaa": "CD",
+    "zone_group": "AFRICA"
+  }
+]

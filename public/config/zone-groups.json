@@ -1,0 +1,32 @@
+{
+  "PENINSULA_ALL": [
+    "ES-A", "ES-AB", "ES-AL", "ES-AV", "ES-B", "ES-BA", "ES-BI", "ES-BU",
+    "ES-C", "ES-CA", "ES-CC", "ES-CO", "ES-CR", "ES-CS", "ES-CU", "ES-GI",
+    "ES-GR", "ES-H", "ES-HU", "ES-J", "ES-L", "ES-LE", "ES-LO", "ES-LU",
+    "ES-M", "ES-MA", "ES-MU", "ES-NA", "ES-O", "ES-OR", "ES-P", "ES-PO",
+    "ES-S", "ES-SA", "ES-SE", "ES-SG", "ES-SO", "ES-SS", "ES-T", "ES-TE",
+    "ES-TO", "ES-V", "ES-VA", "ES-VI", "ES-Z", "ES-ZA"
+  ],
+  "CANARIAS_MAYORES": ["ES-GC-LA", "ES-TF-TF"],
+  "CANARIAS_MENORES": ["ES-GC-FU", "ES-GC-LZ", "ES-TF-GO", "ES-TF-HI", "ES-TF-LP"],
+  "CANARIAS_ALL": ["ES-GC-LA", "ES-TF-TF", "ES-GC-FU", "ES-GC-LZ", "ES-TF-GO", "ES-TF-HI", "ES-TF-LP"],
+  "BALEARES_MAYORES": ["ES-PM-MA", "ES-PM-IB"],
+  "BALEARES_MENORES": ["ES-PM-ME", "ES-PM-FO"],
+  "BALEARES_ALL": ["ES-PM-MA", "ES-PM-IB", "ES-PM-ME", "ES-PM-FO"],
+  "PORTUGAL_CONTINENTAL": [
+    "PT-AV", "PT-BE", "PT-BG", "PT-BR", "PT-CB", "PT-CO", "PT-EV",
+    "PT-FA", "PT-GU", "PT-LE", "PT-LI", "PT-PA", "PT-PO", "PT-SA",
+    "PT-SE", "PT-VC", "PT-VI", "PT-VR"
+  ],
+  "PORTUGAL_AZORES": [
+    "PT-AZ-CO", "PT-AZ-FA", "PT-AZ-FL", "PT-AZ-GR", "PT-AZ-PI",
+    "PT-AZ-SA", "PT-AZ-SJ", "PT-AZ-SM", "PT-AZ-TE"
+  ],
+  "PORTUGAL_MADEIRA": ["PT-MA-MA", "PT-MA-PS"],
+  "PORTUGAL_ISLAS": [
+    "PT-AZ-CO", "PT-AZ-FA", "PT-AZ-FL", "PT-AZ-GR", "PT-AZ-PI",
+    "PT-AZ-SA", "PT-AZ-SJ", "PT-AZ-SM", "PT-AZ-TE",
+    "PT-MA-MA", "PT-MA-PS"
+  ],
+  "CEUTA_MELILLA": ["ES-CE", "ES-ML"]
+}

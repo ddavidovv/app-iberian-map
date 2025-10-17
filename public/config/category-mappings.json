@@ -1,0 +1,94 @@
+{
+  "peninsula": {
+    "Provincial": {
+      "baremo": "PRO",
+      "zones": "SAME_AS_ORIGIN"
+    },
+    "Regional": {
+      "baremo": "REG",
+      "zones": "REGIONAL_NEIGHBORS"
+    },
+    "Peninsular": {
+      "baremo": "PEN",
+      "zones": "PENINSULA_ALL"
+    },
+    "Peninsular Plus": {
+      "baremo": "PEL",
+      "zones": "PENINSULA_ALL"
+    },
+    "Portugal": {
+      "baremo": "PTC",
+      "zones": "PORTUGAL_CONTINENTAL"
+    },
+    "Isla Mayor": {
+      "baremo": "CAM",
+      "zones": "CANARIAS_MAYORES"
+    },
+    "Isla Menor": {
+      "baremo": "BAM",
+      "zones": "CANARIAS_MENORES"
+    },
+    "InterIslas": {
+      "baremo": "REG",
+      "zones": "CANARIAS_ALL"
+    },
+    "Madeira": {
+      "baremo": "PTI",
+      "zones": "PORTUGAL_MADEIRA"
+    },
+    "Azores": {
+      "baremo": "PTI",
+      "zones": "PORTUGAL_AZORES"
+    },
+    "Ceuta / Melilla / Gibraltar / Andorra": {
+      "baremo": "CEU",
+      "zones": "CEUTA_MELILLA"
+    }
+  },
+  "canarias": {
+    "Origen\nIsla Mayor": {
+      "baremo": "PEN",
+      "zones": "PENINSULA_ALL"
+    },
+    "Origen\nIsla Menor": {
+      "baremo": "PTM",
+      "zones": "PENINSULA_ALL"
+    },
+    "InterIslas Mayores": {
+      "baremo": "REG",
+      "zones": "CANARIAS_MAYORES"
+    },
+    "InterIslas \nResto de Islas": {
+      "baremo": "PTM",
+      "zones": "CANARIAS_MENORES"
+    },
+    "Misma Isla Mayor": {
+      "baremo": "PRO",
+      "zones": "SAME_AS_ORIGIN"
+    }
+  },
+  "baleares": {
+    "Origen\nIsla Mayor": {
+      "baremo": "PEN",
+      "zones": "PENINSULA_ALL"
+    },
+    "Origen\nIsla Menor": {
+      "baremo": "BAM",
+      "zones": "PENINSULA_ALL"
+    },
+    "InterIslas": {
+      "baremo": "REG",
+      "zones": "BALEARES_ALL"
+    },
+    "Misma Isla": {
+      "baremo": "PRO",
+      "zones": "SAME_AS_ORIGIN"
+    }
+  },
+  "islas_portugal": {
+    "Azores-Madeira / Madeira - Azores": {
+      "baremo": "PTM",
+      "zones": "PORTUGAL_ISLAS"
+    }
+  }
+}

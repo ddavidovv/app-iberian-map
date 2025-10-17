@@ -1,31 +1,38 @@
 import React from 'react';
 import { baremoColors } from '../config/baremos';
-import type { ProductMapConfig } from '../types/map';
+import type { ProductMapConfig, OriginType } from '../types/map';
 
 interface LegendProps {
   selectedProduct: ProductMapConfig | null;
+  selectedOrigin: OriginType | null;
   selectedZone: string;
 }
 
-export function Legend({ selectedProduct, selectedZone }: LegendProps) {
+export function Legend({ selectedProduct, selectedOrigin, selectedZone }: LegendProps) {
   // Get unique baremo codes used in the selected product
   const usedBaremoCodes = React.useMemo(() => {
-    if (!selectedProduct || !selectedZone) return new Set<string>();
-    
+    if (!selectedProduct || !selectedOrigin || !selectedZone) return new Set<string>();
+
     const codes = new Set<string>();
-    const originConfig = selectedProduct.mapConfig.find(
+
+    // Find the origin configuration
+    const originData = selectedProduct.origins.find(o => o.origin_type === selectedOrigin);
+    if (!originData) return codes;
+
+    // Find the zone configuration
+    const zoneConfig = originData.mapConfig.find(
       config => config.origin_zone === selectedZone
     );
-    
-    if (originConfig) {
-      originConfig.destins.forEach(destin => {
+
+    if (zoneConfig) {
+      zoneConfig.destins.forEach(destin => {
         codes.add(destin.baremo_code);
       });
       codes.add('NP');
     }
-    
+
     return codes;
-  }, [selectedProduct, selectedZone]);
+  }, [selectedProduct, selectedOrigin, selectedZone]);
 
   const sortedBaremos = React.useMemo(() => {
     return baremoColors

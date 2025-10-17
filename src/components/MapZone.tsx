@@ -3,7 +3,8 @@ import { baremoColors } from '../config/baremos';
 
 interface MapZoneProps {
   id: string;
-  d: string;
+  zoneCode?: string;
+  d?: string;
   x?: string;
   y?: string;
   cx?: string;
@@ -12,13 +13,32 @@ interface MapZoneProps {
   ry?: string;
   width?: string;
   height?: string;
+  transform?: string | null;
   color: string;
   name: string;
   isSelected: boolean;
   onClick: () => void;
+  onContextMenu?: (e: React.MouseEvent) => void;
 }
 
-export function MapZone({ id, d, x, y, cx, cy, rx, ry, width, height, color, name, isSelected, onClick }: MapZoneProps) {
+export function MapZone({
+  id,
+  d,
+  x,
+  y,
+  cx,
+  cy,
+  rx,
+  ry,
+  width,
+  height,
+  transform,
+  color,
+  name,
+  isSelected,
+  onClick,
+  onContextMenu,
+}: MapZoneProps) {
   const baremoName = React.useMemo(() => {
     const baremo = baremoColors.find(b => b.color === color);
     return baremo ? baremo.name : 'No permitido';
@@ -37,6 +57,7 @@ export function MapZone({ id, d, x, y, cx, cy, rx, ry, width, height, color, nam
           cy={cy}
           rx={rx}
           ry={ry}
+          transform={transform ?? undefined}
           fill={color}
           stroke={isSelected ? '#000' : '#e2e8f0'}
           strokeWidth={isSelected ? '1.5' : '0.75'}
@@ -49,6 +70,7 @@ export function MapZone({ id, d, x, y, cx, cy, rx, ry, width, height, color, nam
           y={y}
           width={width}
           height={height}
+          transform={transform ?? undefined}
           fill="#ffffff"
           stroke={isSelected ? '#000' : '#e2e8f0'}
           strokeWidth={isSelected ? '1.5' : '0.75'}
@@ -58,11 +80,13 @@ export function MapZone({ id, d, x, y, cx, cy, rx, ry, width, height, color, nam
         <path
           id={id}
           d={d}
+          transform={transform ?? undefined}
           fill={color}
           stroke={isSelected ? '#000' : '#e2e8f0'}
           strokeWidth={isSelected ? '1.5' : '0.75'}
           className="transition-all duration-300 ease-in-out hover:brightness-95 cursor-pointer"
           onClick={onClick}
+          onContextMenu={onContextMenu}
           onMouseEnter={(e) => {
             e.currentTarget.style.filter = 'brightness(0.95)';
           }}

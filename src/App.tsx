@@ -1,43 +1,45 @@
 import React from 'react';
-import { Map } from 'lucide-react';
-import { ProductSelector } from './components/ProductSelector';
-import { Map as IberianMap } from './components/Map';
-import { useMapConfig } from './hooks/useMapConfig';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { NewMapPage } from './pages/NewMapPage';
+import { ProductsConfigPage } from './pages/config/ProductsConfigPage';
+import { ModelsConfigPage } from './pages/config/ModelsConfigPage';
+import { MapsConfigPage } from './pages/config/MapsConfigPage';
+import { ZonesConfigPage } from './pages/config/ZonesConfigPage';
+import { ShippingMapProvider } from './context/ShippingMapContext';
+
+// Keep old routes for backward compatibility (optional)
+import { MapPage } from './pages/MapPage';
+import { AdminPanel } from './pages/AdminPanel';
 
 function App() {
-  const {
-    products,
-    selectedProduct,
-    selectedZone,
-    handleProductSelect,
-    setSelectedZone,
-    getZoneColor,
-  } = useMapConfig();
-
   return (
-    <div className="min-h-screen bg-white">
-      <header className="bg-red-900 text-white py-4 px-6 shadow-lg">
-        <div className="container mx-auto flex items-center">
-          <Map className="w-8 h-8 mr-3" />
-          <h1 className="text-2xl font-bold">Mapa Ibérico</h1>
-        </div>
-      </header>
+    <BrowserRouter>
+      <ShippingMapProvider>
+        <Routes>
+          {/* New Structure */}
+          <Route path="/" element={<NewMapPage />} />
 
-      <main className="h-[calc(100vh-4rem)] p-4">
-        <div className="h-full max-w-[1800px] mx-auto bg-white rounded-lg shadow-lg p-6 relative">
-          <div className="h-full flex items-center justify-center bg-gray-50 rounded border border-gray-200">
-            <IberianMap
-              onZoneClick={setSelectedZone}
-              getZoneColor={getZoneColor}
-              selectedZone={selectedZone}
-              selectedProduct={selectedProduct}
-              products={products}
-              onProductSelect={handleProductSelect}
-            />
-          </div>
-        </div>
-      </main>
-    </div>
+          {/* Config Routes */}
+          <Route path="/config" element={<Navigate to="/config/products" replace />} />
+          <Route path="/config/products" element={<ProductsConfigPage />} />
+          <Route path="/config/models" element={<ModelsConfigPage />} />
+          <Route path="/config/maps" element={<MapsConfigPage />} />
+          <Route path="/config/zones" element={<ZonesConfigPage />} />
+
+          {/* Legacy routes for backward compatibility - redirect to new structure */}
+          <Route path="/old-map" element={<MapPage />} />
+          <Route path="/admin" element={<Navigate to="/config/products" replace />} />
+          <Route path="/admin/rate-models" element={<Navigate to="/config/models" replace />} />
+          <Route path="/zones" element={<Navigate to="/config/zones" replace />} />
+          <Route path="/zones-manager" element={<Navigate to="/config/zones" replace />} />
+          <Route path="/map-routes" element={<Navigate to="/" replace />} />
+          <Route path="/world" element={<Navigate to="/" replace />} />
+
+          {/* Catch all - redirect to home */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </ShippingMapProvider>
+    </BrowserRouter>
   );
 }
 

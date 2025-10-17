@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { GripVertical, List } from 'lucide-react';
-import { Legend } from './Legend';
-import type { ProductMapConfig } from '../types/map';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
+import { ChevronDown, ChevronUp, GripVertical } from 'lucide-react';
+import { BaremoLegend } from './BaremoLegend';
+import type { LegendEntry } from '../context/ShippingMapContext';
 
 interface Position {
   x: number;
@@ -9,114 +9,186 @@ interface Position {
 }
 
 interface DraggableLegendProps {
-  selectedProduct: ProductMapConfig | null;
-  selectedZone: string;
+  entries: LegendEntry[];
+  title?: string;
+  initialPosition?: Position;
+  containerRef?: React.RefObject<HTMLElement>;
+  anchor?: 'top-left' | 'bottom-right';
 }
 
-export function DraggableLegend({ selectedProduct, selectedZone }: DraggableLegendProps) {
+function clamp(value: number, min: number, max: number): number {
+  return Math.min(Math.max(value, min), max);
+}
+
+const LEGEND_PADDING = 24;
+
+export function DraggableLegend({
+  entries,
+  title = 'Leyenda de baremos',
+  initialPosition,
+  containerRef,
+  anchor = 'top-left',
+}: DraggableLegendProps) {
+  const panelRef = useRef<HTMLDivElement>(null);
+  const dragOriginRef = useRef<Position>({ x: 0, y: 0 });
+  const startPointerRef = useRef<Position>({ x: 0, y: 0 });
+
+  const [position, setPosition] = useState<Position>({ x: 24, y: 24 });
   const [isDragging, setIsDragging] = useState(false);
-  const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
-  const [isVisible, setIsVisible] = useState(true);
-  const dragRef = useRef<HTMLDivElement>(null);
-  const initialPosition = useRef<Position>({ x: 0, y: 0 });
-  const dragStart = useRef<Position>({ x: 0, y: 0 });
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const calculateBounds = useCallback(
+    (panelWidth: number, panelHeight: number) => {
+      const containerRect = containerRef?.current?.getBoundingClientRect();
+      if (containerRect) {
+        const { left, top, right, bottom } = containerRect;
+        return {
+          minX: left + LEGEND_PADDING,
+          maxX: Math.max(left + LEGEND_PADDING, right - LEGEND_PADDING - panelWidth),
+          minY: top + LEGEND_PADDING,
+          maxY: Math.max(top + LEGEND_PADDING, bottom - LEGEND_PADDING - panelHeight),
+        };
+      }
+
+      if (typeof window === 'undefined') {
+        return {
+          minX: LEGEND_PADDING,
+          maxX: LEGEND_PADDING,
+          minY: LEGEND_PADDING,
+          maxY: LEGEND_PADDING,
+        };
+      }
+
+      return {
+        minX: LEGEND_PADDING,
+        maxX: Math.max(LEGEND_PADDING, window.innerWidth - LEGEND_PADDING - panelWidth),
+        minY: LEGEND_PADDING,
+        maxY: Math.max(LEGEND_PADDING, window.innerHeight - LEGEND_PADDING - panelHeight),
+      };
+    },
+    [containerRef],
+  );
 
   useEffect(() => {
-    if (!dragRef.current) return;
-    
-    const updatePosition = () => {
-      if (!dragRef.current) return;
+    if (!entries.length || typeof window === 'undefined') {
+      return;
+    }
+
+    const recalcPosition = () => {
+      if (!panelRef.current) return;
+      const { width, height } = panelRef.current.getBoundingClientRect();
+      const bounds = calculateBounds(width, height);
+
+      let desiredX = bounds.minX;
+      let desiredY = bounds.minY;
+
+      if (initialPosition) {
+        desiredX = initialPosition.x;
+        desiredY = initialPosition.y;
+      } else if (anchor === 'bottom-right') {
+        desiredX = bounds.maxX;
+        desiredY = bounds.maxY;
+      }
+
       setPosition({
-        x: 16,
-        y: window.innerHeight - (dragRef.current.getBoundingClientRect().height + 72)
+        x: clamp(desiredX, bounds.minX, bounds.maxX),
+        y: clamp(desiredY, bounds.minY, bounds.maxY),
       });
     };
 
-    updatePosition();
-    window.addEventListener('resize', updatePosition);
-    return () => window.removeEventListener('resize', updatePosition);
-  }, []);
+    recalcPosition();
+    window.addEventListener('resize', recalcPosition);
 
-  const handleMouseDown = (e: React.MouseEvent) => {
-    setIsDragging(true);
-    dragStart.current = { x: e.clientX, y: e.clientY };
-    initialPosition.current = position;
-  };
+    const containerElement = containerRef?.current;
+    const observer =
+      containerElement && typeof ResizeObserver !== 'undefined'
+        ? new ResizeObserver(() => recalcPosition())
+        : null;
 
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (!isDragging) return;
-      const deltaX = e.clientX - dragStart.current.x;
-      const deltaY = e.clientY - dragStart.current.y;
-      setPosition({
-        x: initialPosition.current.x + deltaX,
-        y: initialPosition.current.y + deltaY
-      });
-    };
-
-    const handleMouseUp = () => setIsDragging(false);
-
-    if (isDragging) {
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
+    if (observer && containerElement) {
+      observer.observe(containerElement);
     }
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('resize', recalcPosition);
+      observer?.disconnect();
     };
-  }, [isDragging]);
+  }, [entries.length, initialPosition, anchor, calculateBounds, containerRef]);
 
-  const toggleVisibility = () => {
-    setIsVisible(prev => !prev);
-    if (!isVisible) {
-      // Reset position when showing
-      if (dragRef.current) {
-        setPosition({
-          x: 16,
-          y: window.innerHeight - (dragRef.current.getBoundingClientRect().height + 72)
-        });
-      }
+  useEffect(() => {
+    if (!isDragging || typeof window === 'undefined') {
+      return;
     }
+
+    const handlePointerMove = (event: MouseEvent) => {
+      if (!panelRef.current) return;
+      const { width, height } = panelRef.current.getBoundingClientRect();
+      const bounds = calculateBounds(width, height);
+      const nextX = dragOriginRef.current.x + (event.clientX - startPointerRef.current.x);
+      const nextY = dragOriginRef.current.y + (event.clientY - startPointerRef.current.y);
+      setPosition({
+        x: clamp(nextX, bounds.minX, bounds.maxX),
+        y: clamp(nextY, bounds.minY, bounds.maxY),
+      });
+    };
+
+    const handlePointerUp = () => setIsDragging(false);
+
+    window.addEventListener('mousemove', handlePointerMove);
+    window.addEventListener('mouseup', handlePointerUp);
+
+    return () => {
+      window.removeEventListener('mousemove', handlePointerMove);
+      window.removeEventListener('mouseup', handlePointerUp);
+    };
+  }, [isDragging, calculateBounds]);
+
+  const handleDragStart = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (!panelRef.current) return;
+    setIsDragging(true);
+    dragOriginRef.current = position;
+    startPointerRef.current = { x: event.clientX, y: event.clientY };
   };
 
-  return (
-    <div className="fixed inset-0 pointer-events-none">
-      <button
-        onClick={toggleVisibility}
-        className="fixed bottom-4 left-4 p-2 bg-white/95 backdrop-blur-sm rounded-lg shadow-lg hover:bg-gray-50 pointer-events-auto z-50"
-        title={isVisible ? "Ocultar leyenda" : "Mostrar leyenda"}
-      >
-        <List className="w-5 h-5 text-gray-600" />
-      </button>
+  if (!entries.length) {
+    return null;
+  }
 
-      {isVisible && (
-        <div
-          ref={dragRef}
-          className="fixed select-none pointer-events-auto z-50"
-          style={{
-            transform: `translate(${position.x}px, ${position.y}px)`,
-            cursor: isDragging ? 'grabbing' : 'grab',
-            maxHeight: 'calc(100vh - 100px)',
-            overflow: 'visible'
-          }}
-        >
-          <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-gray-200">
-            <div
-              className="px-3 py-1.5 border-b border-gray-100/50 flex items-center justify-between cursor-grab"
-              onMouseDown={handleMouseDown}
+  return (
+    <div className="fixed inset-0 pointer-events-none z-40">
+      <div
+        ref={panelRef}
+        className="pointer-events-auto fixed select-none"
+        style={{
+          transform: `translate(${position.x}px, ${position.y}px)`,
+          cursor: isDragging ? 'grabbing' : 'default',
+        }}
+      >
+        <div className="w-72 max-w-[320px] bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-slate-200">
+          <div
+            className="px-3 py-2 border-b border-slate-100 flex items-center justify-between cursor-grab"
+            onMouseDown={handleDragStart}
+          >
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+              <GripVertical className="w-4 h-4 text-slate-400" />
+              {title}
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsCollapsed((prev) => !prev)}
+              className="p-1 rounded-md hover:bg-slate-100 transition-colors"
+              aria-label={isCollapsed ? 'Expandir leyenda' : 'Colapsar leyenda'}
             >
-              <div className="flex items-center gap-2">
-                <GripVertical className="w-4 h-4 text-gray-400" />
-                <span className="text-xs font-medium text-gray-600">Leyenda</span>
-              </div>
-            </div>
-            <div className="p-3">
-              <Legend selectedProduct={selectedProduct} selectedZone={selectedZone} />
-            </div>
+              {isCollapsed ? <ChevronDown className="w-4 h-4 text-slate-500" /> : <ChevronUp className="w-4 h-4 text-slate-500" />}
+            </button>
           </div>
+          {!isCollapsed && (
+            <div className="p-3 max-h-64 overflow-auto">
+              <BaremoLegend entries={entries} variant="compact" />
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

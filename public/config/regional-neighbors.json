@@ -1,0 +1,11 @@
+{
+  "ES-M": ["ES-TO", "ES-GU", "ES-AV", "ES-SG"],
+  "ES-B": ["ES-GI", "ES-T", "ES-L"],
+  "ES-SE": ["ES-H", "ES-CO", "ES-CA", "ES-MA"],
+  "ES-V": ["ES-A", "ES-CS"],
+  "ES-TF-TF": ["ES-TF-GO", "ES-TF-HI", "ES-TF-LP"],
+  "ES-GC-LA": ["ES-GC-FU", "ES-GC-LZ"],
+  "ES-PM-MA": ["ES-PM-IB", "ES-PM-ME", "ES-PM-FO"],
+  "PT-PO": ["PT-AV", "PT-BR", "PT-VC"],
+  "PT-LI": ["PT-SA", "PT-SE", "PT-LE"]
+}
