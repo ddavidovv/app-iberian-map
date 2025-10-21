@@ -191,6 +191,27 @@ export function RatesModelsPage() {
     setFeedback({ type: 'success', message: `Producto "${productName}" añadido correctamente` });
   };
 
+  const handleConfirmProducts = (products: RatesModelProduct[]) => {
+    if (!editableModel) return;
+
+    // Filter out products that already exist in the model
+    const existingCodes = new Set(editableModel.products.map(p => p.product_code));
+    const newProducts = products.filter(p => !existingCodes.has(p.product_code));
+
+    if (newProducts.length === 0) {
+      setFeedback({ type: 'error', message: 'Todos los productos seleccionados ya están en el modelo' });
+      return;
+    }
+
+    setEditableModel(prev => (prev ? { ...prev, products: [...prev.products, ...newProducts] } : prev));
+    setIsDirty(true);
+    setFeedback({
+      type: 'success',
+      message: `${newProducts.length} producto${newProducts.length !== 1 ? 's' : ''} añadido${newProducts.length !== 1 ? 's' : ''} correctamente`
+    });
+    setShowProductsSidebar(false);
+  };
+
   const saveModel = async () => {
     if (!editableModel) return;
     setIsSaving(true);
@@ -893,6 +914,7 @@ export function RatesModelsPage() {
       <ProductsSidebar
         isOpen={showProductsSidebar}
         onClose={() => setShowProductsSidebar(false)}
+        onConfirm={handleConfirmProducts}
       />
     </div>
     </DndProvider>

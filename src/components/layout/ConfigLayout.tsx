@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ArrowLeft, Package, Layers, Map as MapIconLucide, MapPin } from 'lucide-react';
+import { ArrowLeft, Package, Layers, Map as MapIconLucide, MapPin, Grid3x3, TableProperties } from 'lucide-react';
 
 interface ConfigLayoutProps {
   children: React.ReactNode;
@@ -20,6 +20,20 @@ const MENU_ITEMS = [
     label: '2. Modelos Tarifarios',
     icon: Layers,
     description: 'Vinculación de productos'
+  },
+  {
+    id: 'baremo-groups',
+    path: '/config/baremo-groups',
+    label: '2.1. Grupos de Baremos',
+    icon: Grid3x3,
+    description: 'Catálogo de baremos'
+  },
+  {
+    id: 'baremo-matrix',
+    path: '/config/baremo-matrix',
+    label: '2.2. Matriz de Baremos',
+    icon: TableProperties,
+    description: 'Configurar disponibilidad'
   },
   {
     id: 'maps',

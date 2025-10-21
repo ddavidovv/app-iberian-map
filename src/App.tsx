@@ -5,6 +5,8 @@ import { ProductsConfigPage } from './pages/config/ProductsConfigPage';
 import { ModelsConfigPage } from './pages/config/ModelsConfigPage';
 import { MapsConfigPage } from './pages/config/MapsConfigPage';
 import { ZonesConfigPage } from './pages/config/ZonesConfigPage';
+import BaremoGroupsConfigPage from './pages/config/BaremoGroupsConfigPage';
+import BaremoMatrixConfigPage from './pages/config/BaremoMatrixConfigPage';
 import { ShippingMapProvider } from './context/ShippingMapContext';
 
 // Keep old routes for backward compatibility (optional)
@@ -25,6 +27,8 @@ function App() {
           <Route path="/config/models" element={<ModelsConfigPage />} />
           <Route path="/config/maps" element={<MapsConfigPage />} />
           <Route path="/config/zones" element={<ZonesConfigPage />} />
+          <Route path="/config/baremo-groups" element={<BaremoGroupsConfigPage />} />
+          <Route path="/config/baremo-matrix" element={<BaremoMatrixConfigPage />} />
 
           {/* Legacy routes for backward compatibility - redirect to new structure */}
           <Route path="/old-map" element={<MapPage />} />
