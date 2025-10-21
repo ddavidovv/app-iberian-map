@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project-specific ignores
+.playwright-mcp
+.claude
+.bolt
+boltzip
+scripts
+
+# Office documents
+*.pptx
+*.xlsx
+*.xlsm
