@@ -23,11 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+# Project-specific ignores
 .playwright-mcp
 .claude
 .bolt
-/scripts
-/boltzip
+boltzip
+scripts
 
 # Office documents
 *.pptx
